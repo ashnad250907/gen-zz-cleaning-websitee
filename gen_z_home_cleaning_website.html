@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Gen Z Home Cleaning Service offers flexible home cleaning packages to fit your lifestyle.">
+<title>Gen Z Home Cleaning Service</title>
+<style>
+:root{--ink:#173b35;--green:#2f7564;--mint:#e8f4ee;--cream:#fbfaf5;--orange:#f4a261;--muted:#63736d;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(251,250,245,.94);backdrop-filter:blur(12px);border-bottom:1px solid #e4ebe5}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:15px 0}.brand{display:flex;align-items:center;gap:10px;font-weight:850;line-height:1.1}.logo{width:42px;height:42px;border-radius:14px;background:var(--green);color:white;display:grid;place-items:center;font-size:22px}.brand small{display:block;color:var(--muted);font-size:11px;font-weight:650;letter-spacing:.08em;margin-top:4px}.links{display:flex;gap:24px;align-items:center;font-size:14px;font-weight:700}.links a:hover{color:var(--green)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--green);color:white;padding:13px 19px;border-radius:999px;font-weight:800;border:0;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-2px);background:var(--ink)}.btn.light{background:white;color:var(--ink);border:1px solid #dce7df}.btn.orange{background:var(--orange);color:#243d35}
+.hero{padding:74px 0 66px;overflow:hidden;background:radial-gradient(circle at 88% 16%,#f8dfbf 0,transparent 23%),linear-gradient(135deg,#f7f8ee,#e9f4ed 75%)}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:8px;background:white;border:1px solid #dce8df;border-radius:99px;padding:7px 12px;font-size:12px;letter-spacing:.08em;font-weight:850;text-transform:uppercase;color:var(--green)}h1{font-size:clamp(42px,6vw,70px);line-height:1.02;letter-spacing:-.055em;margin:20px 0}h1 span{color:var(--green)}.lead{font-size:18px;color:#526861;max-width:560px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.trust{display:flex;gap:22px;flex-wrap:wrap;margin-top:28px;color:#53675f;font-size:13px;font-weight:700}.trust span{display:flex;align-items:center;gap:7px}.art{min-height:370px;position:relative;display:grid;place-items:center}.blob{width:min(370px,90%);aspect-ratio:1;border-radius:43% 57% 56% 44%/44% 43% 57% 56%;background:#c7e3d1;position:absolute;transform:rotate(-8deg)}.home-card{position:relative;width:78%;max-width:330px;background:white;border-radius:28px;padding:26px;box-shadow:0 24px 70px #234c3b20;transform:rotate(3deg)}.home-icon{height:150px;background:linear-gradient(145deg,#eff7ed,#d5e9da);border-radius:20px;display:grid;place-items:center;font-size:86px}.home-card h3{margin:18px 0 4px;font-size:20px}.home-card p{margin:0;color:var(--muted);font-size:14px}.spark{position:absolute;background:white;border-radius:18px;padding:12px 15px;box-shadow:0 12px 35px #234c3b18;font-size:13px;font-weight:800}.spark.one{top:48px;right:0}.spark.two{bottom:34px;left:0}.section{padding:78px 0}.section-head{text-align:center;max-width:650px;margin:0 auto 38px}.kicker{color:var(--green);text-transform:uppercase;letter-spacing:.13em;font-weight:850;font-size:12px}.section h2{font-size:clamp(30px,4vw,44px);line-height:1.12;letter-spacing:-.04em;margin:10px 0 14px}.section-head p{color:var(--muted);margin:0}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}.about-panel{background:var(--mint);border-radius:28px;padding:32px}.about-panel .big{font-size:58px}.about-panel h3{font-size:23px;margin:5px 0}.about-panel p{color:#526861}.checks{display:grid;gap:14px;margin-top:23px}.check{display:flex;gap:12px;align-items:flex-start}.check b{display:block}.check small{color:var(--muted)}.checkmark{flex:0 0 28px;height:28px;background:#dcefe3;color:var(--green);border-radius:50%;display:grid;place-items:center;font-weight:900}
+.packages{background:#f0f6f0}.package-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.package{background:white;border:1px solid #e2ebe3;border-radius:24px;padding:25px;display:flex;flex-direction:column;min-height:340px;box-shadow:0 8px 25px #1b48300a}.package.featured{border:2px solid var(--green);position:relative}.tag{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--green);font-weight:900}.package-icon{font-size:30px;margin:12px 0 5px}.package h3{font-size:22px;margin:0 0 8px}.package p{color:var(--muted);font-size:14px;margin:0 0 16px}.package ul{padding:0 0 0 18px;margin:0 0 22px;color:#415a51;font-size:14px}.package li{margin:7px 0}.package .btn{margin-top:auto;width:100%}.note{text-align:center;color:var(--muted);font-size:13px;margin-top:22px}.addons{display:grid;grid-template-columns:.8fr 1.2fr;gap:35px;align-items:center}.addons-copy{background:var(--ink);color:white;border-radius:26px;padding:30px}.addons-copy p{color:#d0e0d8}.addon-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.addon{background:white;border:1px solid #e4ebe5;border-radius:16px;padding:16px;font-weight:750;display:flex;gap:10px;align-items:center}.addon span{font-size:21px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{padding:25px;border-radius:22px;background:white;border:1px solid #e5ebe5}.num{width:42px;height:42px;border-radius:14px;background:var(--mint);display:grid;place-items:center;color:var(--green);font-weight:900}.step h3{margin:16px 0 7px}.step p{margin:0;color:var(--muted);font-size:14px}.cta{background:var(--green);color:white;border-radius:30px;padding:44px;display:flex;align-items:center;justify-content:space-between;gap:25px}.cta h2{font-size:clamp(28px,4vw,42px);line-height:1.1;margin:0 0 10px}.cta p{color:#d8e9e0;margin:0}.cta .btn{flex-shrink:0}
+footer{padding:30px 0;border-top:1px solid #e3e9e2;color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+@media(max-width:800px){.links{gap:12px}.links a:not(.btn){display:none}.hero{padding:50px 0}.hero-grid,.about-grid,.addons{grid-template-columns:1fr}.art{min-height:320px}.package-grid{grid-template-columns:1fr 1fr}.cta{align-items:flex-start;flex-direction:column}.steps{grid-template-columns:1fr}.about-grid{gap:24px}}
+@media(max-width:520px){.package-grid{grid-template-columns:1fr}.nav{padding:12px 0}.brand{font-size:14px}.nav .btn{padding:10px 13px;font-size:12px}.hero-grid{gap:12px}.art{min-height:290px}.home-card{width:75%;padding:18px}.home-icon{height:120px;font-size:68px}.spark.one{right:-4px}.spark.two{left:-2px}.section{padding:56px 0}.addons-copy{padding:24px}.addon-list{grid-template-columns:1fr 1fr}.cta{padding:30px 24px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home"><span class="logo">✦</span><span>GEN Z HOME<small> CLEANING SERVICE</small></span></a>
+    <nav class="links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#packages">Packages</a><a href="#addons">Add-ons</a><a href="#booking" class="btn">Book a clean ↗</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">✦ A cleaner home, more free time</div>
+      <h1>More time for life.<br><span>Less time cleaning.</span></h1>
+      <p class="lead">A clean home should not come at the cost of your valuable time. Choose a cleaning package that fits your home, your schedule and your needs.</p>
+      <div class="hero-actions"><a class="btn" href="#packages">Explore our packages ↓</a><a class="btn light" href="#about">Get to know us</a></div>
+      <div class="trust"><span>✓ Flexible options</span><span>✓ Convenient booking</span><span>✓ Made for your lifestyle</span></div>
+    </div>
+    <div class="art" aria-label="Illustration of a clean home">
+      <div class="blob"></div><div class="home-card"><div class="home-icon">🧹🏡</div><h3>A fresh start at home</h3><p>Cleaning that fits your lifestyle.</p></div>
+      <div class="spark one">✨ Fresh & tidy</div><div class="spark two">🪴 Your home, your comfort</div>
+    </div>
+  </div>
+</section>
+<section class="section" id="about">
+  <div class="wrap about-grid">
+    <div>
+      <div class="kicker">A little about us</div><h2>We make home cleaning easier.</h2>
+      <p>Gen Z Home Cleaning Service was established in 2023. Starting in the Klang Valley, we aim to serve customers across Peninsular Malaysia with convenient, reliable and affordable home cleaning options.</p>
+      <p>Our concept is simple: <strong>cleaning made easier.</strong> Whether you need routine cleaning, a deeper clean or help before moving house, you can choose a service that suits your situation.</p>
+      <div class="checks">
+        <div class="check"><span class="checkmark">✓</span><div><b>Flexible</b><small>Different options for different household needs.</small></div></div>
+        <div class="check"><span class="checkmark">✓</span><div><b>Convenient</b><small>Contact us online to discuss your booking.</small></div></div>
+        <div class="check"><span class="checkmark">✓</span><div><b>Customisable</b><small>Add extra cleaning tasks when you need them.</small></div></div>
+      </div>
+    </div>
+    <div class="about-panel"><div class="big">🧽</div><h3>Cleaning that fits your lifestyle.</h3><p>From everyday tidying to move-in or move-out cleaning, our packages are designed around what you need—not a one-size-fits-all solution.</p><a href="#packages" class="btn">Find your package →</a></div>
+  </div>
+</section>
+<section class="section packages" id="packages">
+  <div class="wrap">
+    <div class="section-head"><div class="kicker">Our cleaning packages</div><h2>Choose the clean that fits.</h2><p>Explore our services and select the option that best suits your home. Contact us for a quotation and availability.</p></div>
+    <div class="package-grid">
+      <article class="package"><div class="tag">01 · Everyday upkeep</div><div class="package-icon">🧹</div><h3>Basic Cleaning</h3><p>For homes that need a little help staying neat and presentable.</p><ul><li>Sweeping, vacuuming and mopping</li><li>Dusting surfaces</li><li>General tidying of common areas</li><li>Basic bedroom cleaning</li><li>Visible cobweb removal</li></ul><a class="btn light book-link" href="#booking" data-package="Basic Cleaning">Enquire about Basic</a></article>
+      <article class="package featured"><div class="tag">02 · A more detailed clean</div><div class="package-icon">✨</div><h3>Standard Cleaning</h3><p>For a more comprehensive clean of your main household areas.</p><ul><li>All-round floor cleaning</li><li>Bedroom and living room cleaning</li><li>Kitchen surface and sink cleaning</li><li>Bathroom cleaning</li><li>Dust and visible dirt removal</li></ul><a class="btn book-link" href="#booking" data-package="Standard Cleaning">Enquire about Standard</a></article>
+      <article class="package"><div class="tag">03 · The deeper refresh</div><div class="package-icon">🫧</div><h3>Deep Cleaning</h3><p>For areas that need more intensive attention.</p><ul><li>Detailed floor cleaning</li><li>Detailed bathroom and kitchen cleaning</li><li>Hard-to-reach areas</li><li>Accumulated dust and cobwebs</li><li>Detailed surface cleaning</li></ul><a class="btn light book-link" href="#booking" data-package="Deep Cleaning">Enquire about Deep Clean</a></article>
+      <article class="package"><div class="tag">04 · Moving in</div><div class="package-icon">📦</div><h3>Move-In Cleaning</h3><p>Get your new place ready before settling in.</p><ul><li>Floor and surface cleaning</li><li>Dust removal</li><li>Kitchen cleaning</li><li>Bathroom cleaning</li><li>Removal of dirt left by previous occupants</li></ul><a class="btn light book-link" href="#booking" data-package="Move-In Cleaning">Enquire about Move-In</a></article>
+      <article class="package"><div class="tag">05 · Moving out</div><div class="package-icon">🔑</div><h3>Move-Out Cleaning</h3><p>Leave your previous home in a cleaner condition.</p><ul><li>Floor cleaning</li><li>Kitchen and bathroom cleaning</li><li>Dusting and general cleaning</li><li>Visible dirt and debris removal</li></ul><a class="btn light book-link" href="#booking" data-package="Move-Out Cleaning">Enquire about Move-Out</a></article>
+      <article class="package"><div class="tag">06 · Make it your own</div><div class="package-icon">🪄</div><h3>Add-On Services</h3><p>Give extra attention to the areas that matter to you.</p><ul><li>Choose specific extra cleaning tasks</li><li>Add services to an existing package</li><li>Customise based on your needs</li></ul><a class="btn light book-link" href="#addons" data-package="Add-On Services">Explore add-ons</a></article>
+    </div>
+    <p class="note">Package prices are not listed in the provided business proposal. Contact us for a quotation based on your requirements.</p>
+  </div>
+</section>
+<section class="section" id="addons">
+  <div class="wrap addons">
+    <div class="addons-copy"><div class="kicker" style="color:#b9e2ca">Extra touches</div><h2>Need a little more?</h2><p>Customise your cleaning package by adding specific tasks, instead of paying for a larger package you may not need.</p><a class="btn orange" href="#booking">Ask about add-ons ↗</a></div>
+    <div class="addon-list"><div class="addon"><span>🚿</span> Extra bathroom cleaning</div><div class="addon"><span>🍳</span> Kitchen deep cleaning</div><div class="addon"><span>🧊</span> Refrigerator cleaning</div><div class="addon"><span>🪟</span> Interior window cleaning</div><div class="addon"><span>🗄️</span> Cabinet cleaning</div><div class="addon"><span>🌿</span> Balcony cleaning</div><div class="addon"><span>🛏️</span> Extra bedroom cleaning</div><div class="addon"><span>✨</span> Detailed dusting</div></div>
+  </div>
+</section>
+<section class="section" style="background:#f0f6f0">
+  <div class="wrap"><div class="section-head"><div class="kicker">Simple and convenient</div><h2>Booking in three easy steps.</h2><p>Tell us what you need, and we can discuss the right service for your home.</p></div>
+    <div class="steps"><div class="step"><div class="num">1</div><h3>Choose a package</h3><p>Select the cleaning service that best matches your home and requirements.</p></div><div class="step"><div class="num">2</div><h3>Tell us your details</h3><p>Share your location, preferred date and time, home size and any extra tasks.</p></div><div class="step"><div class="num">3</div><h3>Confirm your booking</h3><p>We’ll discuss the quotation and availability with you before confirming.</p></div></div>
+  </div>
+</section>
+<section class="section" id="booking"><div class="wrap"><div class="cta"><div><h2>Ready for a fresher home?</h2><p>Tell us what you need and ask for a package quotation.</p></div><a class="btn orange" href="mailto:YOUR-EMAIL-HERE?subject=Gen%20Z%20Home%20Cleaning%20Service%20Enquiry" id="contactBtn">Contact us to enquire ↗</a></div><p class="note">Before publishing, replace the sample contact email with your business email or add your WhatsApp booking link.</p></div></section>
+</main>
+<footer><div class="wrap foot"><div><strong>GEN Z HOME CLEANING SERVICE</strong><br>Cleaning that fits your lifestyle.</div><div>© <span id="year"></span> Gen Z Home Cleaning Service · All rights reserved</div></div></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+document.querySelectorAll('.book-link').forEach(link => link.addEventListener('click', () => {
+  const pkg = link.dataset.package;
+  if (pkg && pkg !== 'Add-On Services') {
+    const contact = document.getElementById('contactBtn');
+    contact.href = 'mailto:YOUR-EMAIL-HERE?subject=' + encodeURIComponent('Enquiry: ' + pkg);
+  }
+}));
+</script>
+</body>
+</html>
